@@ -10,7 +10,7 @@ The Aristocrat method/ Monte-Carlo method/ Martingale method is a very simple ap
 By coding a small selenium python script I was able to reliably (eventually) win back my original stake.
 
 ## Banano?
-I have recently become fascinated by all things Blockchain and Crypto (I might also look into writing a real crypto trading bot, stay tuned for that). And in the vast oceans of altcoins I discovered [NANO](https://nano.org)! Nano is a feeless, near instant, green cryptocurrency with a ±human friendly codebase. Like Bitcin's Dogecoin, Nano has a meme fork: Banano (Currently worth around $0.004878). Now banano is fun, but not super useful at the moment. You can earn banano through community drops (which I haven't had much luck with yet), and, more interestingly, through Folding.
+I have recently become fascinated by all things Blockchain and Crypto (I might also look into writing a real crypto trading bot, stay tuned for that). And in the vast oceans of altcoins I discovered [NANO](https://nano.org)! Nano is a feeless, near instant, green cryptocurrency with a ±human friendly codebase. Like Bitcoin's Dogecoin, Nano has a meme fork: Banano (Currently worth around $0.004878). Banano is fun, but not super useful at the moment. You can earn banano through community drops (which I haven't had much luck with yet), and, more interestingly, through Folding.
 
 ## F@H?
 Folding@Home is an amazing project that allows everyone to use their spare computational power to simulate protein folding and help the world fight disease, and The Banano Project in incentivizing users by rewarding them with bananos. (Which is currenly my main source of bananos).
