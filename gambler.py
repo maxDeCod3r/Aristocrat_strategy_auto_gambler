@@ -19,6 +19,9 @@ class Gambler:
         prev_balance = float(self.user_balance.text)
         if prev_balance < amount:
             raise ValueError("Balance too low!!!")
+        if prev_balance < amount * 8:
+            print(f"Fuck that, accepting loss of {amount*2}")
+            return
         self.set_bet(amount)
         self.bet_button.click()
         time.sleep(1)
