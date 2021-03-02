@@ -1,0 +1,2 @@
+# Aristograt_strategy_auto_gambler
+TODO
