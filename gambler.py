@@ -19,7 +19,7 @@ class Gambler:
         prev_balance = float(self.user_balance.text)
         if prev_balance < amount:
             raise ValueError("Balance too low!!!")
-        if prev_balance < amount * 8: # TODO: tweak the 8 to represent an accurate safety net
+        if prev_balance < amount * 4: # TODO: tweak the 4 to represent an accurate safety net
             print(f"Screw that, accepting loss of {amount*2}")
             return
         self.set_bet(amount)
