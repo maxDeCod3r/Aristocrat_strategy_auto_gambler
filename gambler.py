@@ -15,7 +15,7 @@ class Gambler:
         self.bet_amount.clear()
         self.bet_amount.send_keys(str(amount))
 
-    def make_bet(self, amount: float = 0.1) -> None:
+    def make_bet(self, amount: float = 0.1, initial_amount = 0.1) -> None:
         prev_balance = float(self.user_balance.text)
         if prev_balance < amount:
             raise ValueError("Balance too low!!!")
@@ -28,12 +28,12 @@ class Gambler:
         if float(self.user_balance.text) >= prev_balance:
             return
         else:
-            self.make_bet(amount*2)
+            self.make_bet(amount*2 + initial_amount, initial_amount)
 
     def keep_make_bet(self, amount: float = 0.1) -> None:
         while True:
             try:
-                self.make_bet(amount)
+                self.make_bet(amount, amount)
             except:
                 pass
 
