@@ -24,15 +24,18 @@ class Gambler:
             return
         self.set_bet(amount)
         self.bet_button.click()
-        time.sleep(1)
-        if float(self.user_balance.text) > prev_balance:
+        time.sleep(1.5)
+        if float(self.user_balance.text) >= prev_balance:
             return
         else:
             self.make_bet(amount*2)
 
     def keep_make_bet(self, amount: float = 0.1) -> None:
         while True:
-            self.make_bet(amount)
+            try:
+                self.make_bet(amount)
+            except:
+                pass
 
 
 # if __name__ == "__main__":
